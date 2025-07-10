@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 const ADMIN_EMAIL = 'admin@gmail.com';
-const ADMIN_PASSWORD = '123456';
+const ADMIN_PASSWORD = '2008.111';
 const MOCKAPI_URL = 'https://68582b6721f5d3463e575b61.mockapi.io/products';
 
 app.post('/api/login', (req, res) => {
